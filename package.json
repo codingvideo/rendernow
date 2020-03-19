@@ -1,0 +1,14 @@
+{
+  "name": "rendernow",
+  "version": "1.0.0",
+  "description": "to render HTML with template and JavaScript",
+  "bin": {
+    "rendernow": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingvideo/rendernow.git"
+  },
+  "author": "codingvideo.com",
+  "license": "ISC"
+}
