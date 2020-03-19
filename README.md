@@ -16,10 +16,10 @@ After installing the npm package, the `rendernow` command will be available to u
 rendernow -i template.html -o output.html -js code-file.js
 ```
 
-The `rendernow` command accepts three parameters:
-1) -i is the name of the template file
-2) -o is the name of the HTML output file
-3) -js is the name of JavaScript file that you want to use inside the template
+The `rendernow` command accepts three arguments:
+1) `-i` is the name of the template file
+2) `-o` is the name of the HTML output file
+3) `-js` is the name of JavaScript file that you want to use inside the template
 
 Inside the template, you can call the functions from the JavaScript file using the following syntax:
 
@@ -28,7 +28,7 @@ Inside the template, you can call the functions from the JavaScript file using t
 ```
 (double curly braces within an HTML comment)
 
-This template will get rendered with the value from a JavaScript function called `getValue`:
+The above template will get rendered with the value from a JavaScript function called `getValue`:
 
 ```js
 // code.js
